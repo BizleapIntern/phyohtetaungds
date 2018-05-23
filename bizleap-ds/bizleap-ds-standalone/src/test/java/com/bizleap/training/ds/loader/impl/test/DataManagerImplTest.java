@@ -22,13 +22,12 @@ public class DataManagerImplTest extends ServiceTest {
 	@Autowired
 	CompanyService companyService;
 
-	//@Ignore
-	@Test
-	public void testfindByCompanyBoId() throws ServiceUnavailableException {
-	assertEquals(3,companyService.getAllCompany().size());
-	}
+	/*
+	 * @Test public void testfindByCompanyBoId() throws ServiceUnavailableException
+	 * { assertEquals(3,companyService.getAllCompany().size()); }
+	 */
 
-	@Ignore
+	// @Ignore
 	@Test
 	public void testLoad() throws IOException, ServiceUnavailableException {
 		dataManager.load();
@@ -36,7 +35,7 @@ public class DataManagerImplTest extends ServiceTest {
 		assertNotNull(dataManager.getEmployeeList());
 		logger.info("Employee List:" + dataManager.getEmployeeList());
 		assertTrue(CollectionUtils.isNotEmpty(dataManager.getEmployeeList()));
-		assertEquals(4, dataManager.getEmployeeList().size());
+		assertEquals(8, dataManager.getEmployeeList().size());
 
 		assertNotNull(dataManager.getCompanyList());
 		logger.info("Company List:" + dataManager.getCompanyList());

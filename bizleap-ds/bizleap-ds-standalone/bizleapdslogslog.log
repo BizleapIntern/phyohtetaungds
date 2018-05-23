@@ -230,3 +230,421 @@
 2018-05-22 11:59:45 DEBUG CompanySaverImpl:15 - Company successfully saved.
 2018-05-22 12:01:23 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
 2018-05-22 12:06:27 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 10:12:54 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 10:21:04 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 10:26:38 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 10:28:27 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 10:38:35 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 10:38:42 DEBUG FileLoaderImpl:61 - File name....employee.txt
+2018-05-23 10:38:42 DEBUG FileLoaderImpl:47 - About to read file:C:/bizleap/ds/data/employee.txt
+2018-05-23 10:38:42 DEBUG FileLoaderImpl:114 - line is: PER01,Alice Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 10:38:42 DEBUG FileLoaderImpl:114 - line is: PER02,Alice_ Kim_,30,Software Engineer_,500000,alicekim_@gmail.com,01132998439,COMP01
+2018-05-23 10:38:42 DEBUG FileLoaderImpl:114 - line is: PER03,Bob Gilman,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP01
+2018-05-23 10:38:42 DEBUG FileLoaderImpl:114 - line is: PER04,John Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP02
+2018-05-23 10:38:42 DEBUG FileLoaderImpl:114 - line is: PER05,Bob Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP02
+2018-05-23 10:38:42 DEBUG FileLoaderImpl:114 - line is: PER06,John Gilman,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 10:38:42 DEBUG FileLoaderImpl:114 - line is: PER07,Kim Gilmi,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 10:38:42 DEBUG FileLoaderImpl:114 - line is: PER08,Gilman Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 10:38:42 DEBUG FileLoaderImpl:61 - File name....company.txt
+2018-05-23 10:38:42 DEBUG FileLoaderImpl:47 - About to read file:C:/bizleap/ds/data/company.txt
+2018-05-23 10:38:43 DEBUG FileLoaderImpl:114 - line is: COMP01,Apple,California U.S,800-692-7753,apple@gmail.com,Tim Cook
+2018-05-23 10:38:43 DEBUG FileLoaderImpl:114 - line is: COMP02,IBM,New York U.S,800-426-4968,ibm@gmail.com,Ginni Rometty
+2018-05-23 10:38:43 DEBUG FileLoaderImpl:114 - line is: COMP03,Adobe,California U.S,800-585-0774,adobe@gmail.com,Shantanu Narayen
+2018-05-23 10:38:43 DEBUG CompanySaverImpl:15 - About to save:com.bizleap.commons.domain.Company@5b498842[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook]
+2018-05-23 10:38:43 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 10:38:43 DEBUG CompanySaverImpl:15 - About to save:com.bizleap.commons.domain.Company@5ae95707[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty]
+2018-05-23 10:38:43 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 10:38:43 DEBUG CompanySaverImpl:15 - About to save:com.bizleap.commons.domain.Company@4b2e3e8f[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]
+2018-05-23 10:38:43 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 10:38:43 INFO  DataManagerImplTest:37 - Employee List:[com.bizleap.commons.domain.Employee@4efc25fc[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@d74bac4[boId=PER02,name=Alice_ Kim_,email=alicekim_@gmail.com,phone=01132998439,title=Software Engineer_,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@5c20aab9[boId=PER03,name=Bob Gilman,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@732c9b5c[boId=PER04,name=John Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@213c3543[boId=PER05,name=Bob Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@39e43310[boId=PER06,name=John Gilman,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@3ec2ecea[boId=PER07,name=Kim Gilmi,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@53a5e217[boId=PER08,name=Gilman Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP03]]
+2018-05-23 10:38:43 INFO  DataManagerImplTest:42 - Company List:[com.bizleap.commons.domain.Company@5b498842[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook], com.bizleap.commons.domain.Company@5ae95707[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty], com.bizleap.commons.domain.Company@4b2e3e8f[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]]
+2018-05-23 10:39:38 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 10:39:45 DEBUG FileLoaderImpl:61 - File name....employee.txt
+2018-05-23 10:39:45 DEBUG FileLoaderImpl:47 - About to read file:C:/bizleap/ds/data/employee.txt
+2018-05-23 10:39:45 DEBUG FileLoaderImpl:114 - line is: PER01,Alice Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 10:39:45 DEBUG FileLoaderImpl:114 - line is: PER02,Alice_ Kim_,30,Software Engineer_,500000,alicekim_@gmail.com,01132998439,COMP01
+2018-05-23 10:39:45 DEBUG FileLoaderImpl:114 - line is: PER03,Bob Gilman,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP01
+2018-05-23 10:39:45 DEBUG FileLoaderImpl:114 - line is: PER04,John Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP02
+2018-05-23 10:39:45 DEBUG FileLoaderImpl:114 - line is: PER05,Bob Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP02
+2018-05-23 10:39:45 DEBUG FileLoaderImpl:114 - line is: PER06,John Gilman,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 10:39:45 DEBUG FileLoaderImpl:114 - line is: PER07,Kim Gilmi,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 10:39:45 DEBUG FileLoaderImpl:114 - line is: PER08,Gilman Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 10:39:45 DEBUG FileLoaderImpl:61 - File name....company.txt
+2018-05-23 10:39:45 DEBUG FileLoaderImpl:47 - About to read file:C:/bizleap/ds/data/company.txt
+2018-05-23 10:39:45 DEBUG FileLoaderImpl:114 - line is: COMP01,Apple,California U.S,800-692-7753,apple@gmail.com,Tim Cook
+2018-05-23 10:39:45 DEBUG FileLoaderImpl:114 - line is: COMP02,IBM,New York U.S,800-426-4968,ibm@gmail.com,Ginni Rometty
+2018-05-23 10:39:45 DEBUG FileLoaderImpl:114 - line is: COMP03,Adobe,California U.S,800-585-0774,adobe@gmail.com,Shantanu Narayen
+2018-05-23 10:39:45 DEBUG CompanySaverImpl:15 - About to save:com.bizleap.commons.domain.Company@5b498842[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook]
+2018-05-23 10:39:46 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 10:39:46 DEBUG CompanySaverImpl:15 - About to save:com.bizleap.commons.domain.Company@5ae95707[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty]
+2018-05-23 10:39:46 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 10:39:46 DEBUG CompanySaverImpl:15 - About to save:com.bizleap.commons.domain.Company@4b2e3e8f[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]
+2018-05-23 10:39:46 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 10:39:46 INFO  DataManagerImplTest:37 - Employee List:[com.bizleap.commons.domain.Employee@4efc25fc[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@d74bac4[boId=PER02,name=Alice_ Kim_,email=alicekim_@gmail.com,phone=01132998439,title=Software Engineer_,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@5c20aab9[boId=PER03,name=Bob Gilman,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@732c9b5c[boId=PER04,name=John Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@213c3543[boId=PER05,name=Bob Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@39e43310[boId=PER06,name=John Gilman,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@3ec2ecea[boId=PER07,name=Kim Gilmi,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@53a5e217[boId=PER08,name=Gilman Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP03]]
+2018-05-23 10:39:46 INFO  DataManagerImplTest:42 - Company List:[com.bizleap.commons.domain.Company@5b498842[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook], com.bizleap.commons.domain.Company@5ae95707[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty], com.bizleap.commons.domain.Company@4b2e3e8f[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]]
+2018-05-23 11:39:49 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 11:39:57 DEBUG FileLoaderImpl:61 - File name....employee.txt
+2018-05-23 11:39:57 DEBUG FileLoaderImpl:47 - About to read file:C:/bizleap/ds/data/employee.txt
+2018-05-23 11:39:57 DEBUG FileLoaderImpl:114 - line is: PER01,Alice Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 11:39:57 DEBUG FileLoaderImpl:114 - line is: PER02,Alice_ Kim_,30,Software Engineer_,500000,alicekim_@gmail.com,01132998439,COMP01
+2018-05-23 11:39:57 DEBUG FileLoaderImpl:114 - line is: PER03,Bob Gilman,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP01
+2018-05-23 11:39:57 DEBUG FileLoaderImpl:114 - line is: PER04,John Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP02
+2018-05-23 11:39:57 DEBUG FileLoaderImpl:114 - line is: PER05,Bob Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP02
+2018-05-23 11:39:57 DEBUG FileLoaderImpl:114 - line is: PER06,John Gilman,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 11:39:57 DEBUG FileLoaderImpl:114 - line is: PER07,Kim Gilmi,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 11:39:57 DEBUG FileLoaderImpl:114 - line is: PER08,Gilman Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 11:39:57 DEBUG FileLoaderImpl:61 - File name....company.txt
+2018-05-23 11:39:57 DEBUG FileLoaderImpl:47 - About to read file:C:/bizleap/ds/data/company.txt
+2018-05-23 11:39:57 DEBUG FileLoaderImpl:114 - line is: COMP01,Apple,California U.S,800-692-7753,apple@gmail.com,Tim Cook
+2018-05-23 11:39:57 DEBUG FileLoaderImpl:114 - line is: COMP02,IBM,New York U.S,800-426-4968,ibm@gmail.com,Ginni Rometty
+2018-05-23 11:39:57 DEBUG FileLoaderImpl:114 - line is: COMP03,Adobe,California U.S,800-585-0774,adobe@gmail.com,Shantanu Narayen
+2018-05-23 11:39:57 DEBUG CompanySaverImpl:15 - About to save:com.bizleap.commons.domain.Company@58a63629[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook]
+2018-05-23 11:39:57 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 11:39:57 DEBUG CompanySaverImpl:15 - About to save:com.bizleap.commons.domain.Company@4c48fe92[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty]
+2018-05-23 11:39:57 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 11:39:57 DEBUG CompanySaverImpl:15 - About to save:com.bizleap.commons.domain.Company@6f4ade6e[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]
+2018-05-23 11:39:57 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 11:39:57 INFO  DataManagerImplTest:37 - Employee List:[com.bizleap.commons.domain.Employee@41bf79da[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@5533dc72[boId=PER02,name=Alice_ Kim_,email=alicekim_@gmail.com,phone=01132998439,title=Software Engineer_,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@5d5b5fa7[boId=PER03,name=Bob Gilman,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@7c29adc8[boId=PER04,name=John Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@3effd4f3[boId=PER05,name=Bob Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@7aa9e414[boId=PER06,name=John Gilman,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@4f453e63[boId=PER07,name=Kim Gilmi,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@49c8f6e8[boId=PER08,name=Gilman Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP03]]
+2018-05-23 11:39:57 INFO  DataManagerImplTest:42 - Company List:[com.bizleap.commons.domain.Company@58a63629[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook], com.bizleap.commons.domain.Company@4c48fe92[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty], com.bizleap.commons.domain.Company@6f4ade6e[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]]
+2018-05-23 11:43:09 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 11:43:16 DEBUG FileLoaderImpl:61 - File name....employee.txt
+2018-05-23 11:43:16 DEBUG FileLoaderImpl:47 - About to read file:C:/bizleap/ds/data/employee.txt
+2018-05-23 11:43:16 DEBUG FileLoaderImpl:114 - line is: PER01,Alice Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 11:43:16 DEBUG FileLoaderImpl:114 - line is: PER02,Alice_ Kim_,30,Software Engineer_,500000,alicekim_@gmail.com,01132998439,COMP01
+2018-05-23 11:43:16 DEBUG FileLoaderImpl:114 - line is: PER03,Bob Gilman,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP01
+2018-05-23 11:43:16 DEBUG FileLoaderImpl:114 - line is: PER04,John Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP02
+2018-05-23 11:43:16 DEBUG FileLoaderImpl:114 - line is: PER05,Bob Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP02
+2018-05-23 11:43:16 DEBUG FileLoaderImpl:114 - line is: PER06,John Gilman,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 11:43:16 DEBUG FileLoaderImpl:114 - line is: PER07,Kim Gilmi,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 11:43:16 DEBUG FileLoaderImpl:114 - line is: PER08,Gilman Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 11:43:16 DEBUG FileLoaderImpl:61 - File name....company.txt
+2018-05-23 11:43:16 DEBUG FileLoaderImpl:47 - About to read file:C:/bizleap/ds/data/company.txt
+2018-05-23 11:43:16 DEBUG FileLoaderImpl:114 - line is: COMP01,Apple,California U.S,800-692-7753,apple@gmail.com,Tim Cook
+2018-05-23 11:43:16 DEBUG FileLoaderImpl:114 - line is: COMP02,IBM,New York U.S,800-426-4968,ibm@gmail.com,Ginni Rometty
+2018-05-23 11:43:16 DEBUG FileLoaderImpl:114 - line is: COMP03,Adobe,California U.S,800-585-0774,adobe@gmail.com,Shantanu Narayen
+2018-05-23 11:43:16 DEBUG CompanySaverImpl:15 - About to save:com.bizleap.commons.domain.Company@58a63629[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook]
+2018-05-23 11:43:17 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 11:43:17 DEBUG CompanySaverImpl:15 - About to save:com.bizleap.commons.domain.Company@4c48fe92[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty]
+2018-05-23 11:43:17 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 11:43:17 DEBUG CompanySaverImpl:15 - About to save:com.bizleap.commons.domain.Company@6f4ade6e[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]
+2018-05-23 11:43:17 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 11:43:17 INFO  DataManagerImplTest:37 - Employee List:[com.bizleap.commons.domain.Employee@41bf79da[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@5533dc72[boId=PER02,name=Alice_ Kim_,email=alicekim_@gmail.com,phone=01132998439,title=Software Engineer_,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@2a32fb6[boId=PER03,name=Bob Gilman,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@7c29adc8[boId=PER04,name=John Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@3effd4f3[boId=PER05,name=Bob Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@7aa9e414[boId=PER06,name=John Gilman,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@4f453e63[boId=PER07,name=Kim Gilmi,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@49c8f6e8[boId=PER08,name=Gilman Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP03]]
+2018-05-23 11:43:17 INFO  DataManagerImplTest:42 - Company List:[com.bizleap.commons.domain.Company@58a63629[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook], com.bizleap.commons.domain.Company@4c48fe92[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty], com.bizleap.commons.domain.Company@6f4ade6e[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]]
+2018-05-23 11:53:53 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 11:54:01 DEBUG FileLoaderImpl:61 - File name....employee.txt
+2018-05-23 11:54:01 DEBUG FileLoaderImpl:47 - About to read file:C:/bizleap/ds/data/employee.txt
+2018-05-23 11:54:01 DEBUG FileLoaderImpl:114 - line is: PER01,Alice Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 11:54:01 DEBUG FileLoaderImpl:114 - line is: PER02,Alice_ Kim_,30,Software Engineer_,500000,alicekim_@gmail.com,01132998439,COMP01
+2018-05-23 11:54:01 DEBUG FileLoaderImpl:114 - line is: PER03,Bob Gilman,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP011
+2018-05-23 11:54:01 DEBUG FileLoaderImpl:114 - line is: PER04,John Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP02
+2018-05-23 11:54:01 DEBUG FileLoaderImpl:114 - line is: PER05,Bob Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP02
+2018-05-23 11:54:01 DEBUG FileLoaderImpl:114 - line is: PER06,John Gilman,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 11:54:01 DEBUG FileLoaderImpl:114 - line is: PER07,Kim Gilmi,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 11:54:01 DEBUG FileLoaderImpl:114 - line is: PER08,Gilman Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 11:54:01 DEBUG FileLoaderImpl:61 - File name....company.txt
+2018-05-23 11:54:01 DEBUG FileLoaderImpl:47 - About to read file:C:/bizleap/ds/data/company.txt
+2018-05-23 11:54:01 DEBUG FileLoaderImpl:114 - line is: COMP01,Apple,California U.S,800-692-7753,apple@gmail.com,Tim Cook
+2018-05-23 11:54:01 DEBUG FileLoaderImpl:114 - line is: COMP02,IBM,New York U.S,800-426-4968,ibm@gmail.com,Ginni Rometty
+2018-05-23 11:54:01 DEBUG FileLoaderImpl:114 - line is: COMP03,Adobe,California U.S,800-585-0774,adobe@gmail.com,Shantanu Narayen
+2018-05-23 11:54:01 DEBUG AssociationMapperImpl:39 - 
+2018-05-23 11:54:01 DEBUG AssociationMapperImpl:41 - >>>>>>>>>>>>>> ERROR: Object Link Error <<<<<<<<<<<<<
+2018-05-23 11:54:01 DEBUG AssociationMapperImpl:43 -    Company in employee cannot be linked!
+2018-05-23 11:54:01 DEBUG AssociationMapperImpl:44 - -----------------------------------------------
+2018-05-23 11:54:01 DEBUG AssociationMapperImpl:19 - 
+2018-05-23 11:54:01 DEBUG AssociationMapperImpl:20 - >>>> Object with the issue is :::: com.bizleap.commons.domain.Company@58a63629[boId=COMP011,name=<null>,email=<null>,phone=<null>,address=<null>,ceo=<null>]
+2018-05-23 11:54:01 DEBUG AssociationMapperImpl:21 - 
+2018-05-23 11:54:01 DEBUG AssociationMapperImpl:15 - >>>> Source object is :::: com.bizleap.commons.domain.Employee@7de843ef[boId=PER03,name=Bob Gilman,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP011]
+2018-05-23 11:54:01 DEBUG AssociationMapperImpl:15 - ----------------------------------
+2018-05-23 11:54:01 ERROR AssociationMapperImpl:97 - 
+java.lang.Exception: Object Linkage Exception
+	at com.bizleap.training.ds.loader.impl.AssociationMapperImpl.handleLinkageError(AssociationMapperImpl.java:97)
+	at com.bizleap.training.ds.loader.impl.AssociationMapperImpl.addCompanyToEmployee(AssociationMapperImpl.java:38)
+	at com.bizleap.training.ds.loader.impl.AssociationMapperImpl.processEmployeeAssociations(AssociationMapperImpl.java:74)
+	at com.bizleap.training.ds.loader.impl.AssociationMapperImpl.buildAssociations(AssociationMapperImpl.java:85)
+	at com.bizleap.training.ds.loader.impl.DataManagerImpl.load(DataManagerImpl.java:35)
+	at com.bizleap.training.ds.loader.impl.test.DataManagerImplTest.testLoad(DataManagerImplTest.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:254)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+2018-05-23 11:54:01 DEBUG CompanySaverImpl:15 - About to save:com.bizleap.commons.domain.Company@474fae39[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook]
+2018-05-23 11:54:02 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 11:54:02 DEBUG CompanySaverImpl:15 - About to save:com.bizleap.commons.domain.Company@213c3543[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty]
+2018-05-23 11:54:02 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 11:54:02 DEBUG CompanySaverImpl:15 - About to save:com.bizleap.commons.domain.Company@186cb891[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]
+2018-05-23 11:54:02 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 11:54:02 INFO  DataManagerImplTest:37 - Employee List:[com.bizleap.commons.domain.Employee@4b7c4456[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@aaee2a2[boId=PER02,name=Alice_ Kim_,email=alicekim_@gmail.com,phone=01132998439,title=Software Engineer_,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@7de843ef[boId=PER03,name=Bob Gilman,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP011], com.bizleap.commons.domain.Employee@41f4fe5[boId=PER04,name=John Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@6f4ade6e[boId=PER05,name=Bob Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@4f453e63[boId=PER06,name=John Gilman,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@49c8f6e8[boId=PER07,name=Kim Gilmi,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@771cbb1a[boId=PER08,name=Gilman Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP03]]
+2018-05-23 11:54:02 INFO  DataManagerImplTest:42 - Company List:[com.bizleap.commons.domain.Company@474fae39[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook], com.bizleap.commons.domain.Company@213c3543[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty], com.bizleap.commons.domain.Company@186cb891[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]]
+2018-05-23 11:59:46 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 11:59:54 DEBUG FileLoaderImpl:61 - File name....employee.txt
+2018-05-23 11:59:54 DEBUG FileLoaderImpl:47 - About to read file:C:/bizleap/ds/data/employee.txt
+2018-05-23 11:59:54 DEBUG FileLoaderImpl:114 - line is: PER01,Alice Kim30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 11:59:54 DEBUG FileLoaderImpl:15 - Current input line: 1: PER01,Alice Kim30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 11:59:54 ERROR FileLoaderImpl:89 - Error encountered while passing - employee.txt
+java.lang.NumberFormatException: For input string: "Software Engineer"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.bizleap.commons.domain.Employee.parseEmployee(Employee.java:65)
+	at com.bizleap.training.ds.loader.impl.DataLoaderImpl.loadEmployee(DataLoaderImpl.java:33)
+	at com.bizleap.training.ds.loader.impl.DataLoaderImpl.loadData(DataLoaderImpl.java:77)
+	at com.bizleap.training.ds.loader.impl.DataManagerImpl.load(DataManagerImpl.java:33)
+	at com.bizleap.training.ds.loader.impl.test.DataManagerImplTest.testLoad(DataManagerImplTest.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:254)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+2018-05-23 11:59:54 DEBUG FileLoaderImpl:114 - line is: PER02,Alice_ Kim_,30,Software Engineer_,500000,alicekim_@gmail.com,01132998439,COMP01
+2018-05-23 11:59:54 DEBUG FileLoaderImpl:114 - line is: PER03,Bob Gilman,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP011
+2018-05-23 11:59:54 DEBUG FileLoaderImpl:114 - line is: PER04,John Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP02
+2018-05-23 11:59:54 DEBUG FileLoaderImpl:114 - line is: PER05,Bob Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP02
+2018-05-23 11:59:54 DEBUG FileLoaderImpl:114 - line is: PER06,John Gilman,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 11:59:54 DEBUG FileLoaderImpl:114 - line is: PER07,Kim Gilmi,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 11:59:54 DEBUG FileLoaderImpl:114 - line is: PER08,Gilman Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 11:59:54 DEBUG FileLoaderImpl:29 - 
+2018-05-23 11:59:54 DEBUG FileLoaderImpl:33 - -----------------------------------------------
+2018-05-23 11:59:54 DEBUG FileLoaderImpl:34 -    Errors encountered while loading!!
+2018-05-23 11:59:54 DEBUG FileLoaderImpl:35 - -----------------------------------------------
+2018-05-23 11:59:54 DEBUG FileLoaderImpl:15 - Line with error(s) is:
+2018-05-23 11:59:54 DEBUG FileLoaderImpl:15 - 1:PER01,Alice Kim30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 11:59:54 ERROR FileLoaderImpl:144 - Quiting due to errors!!
+2018-05-23 12:04:03 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 12:04:11 DEBUG FileLoaderImpl:61 - File name....employee.txt
+2018-05-23 12:04:11 DEBUG FileLoaderImpl:47 - About to read file:C:/bizleap/ds/data/employee.txt
+2018-05-23 12:04:11 DEBUG FileLoaderImpl:114 - line is: PER01,Alice Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 12:04:11 DEBUG FileLoaderImpl:114 - line is: PER02,Alice_ Kim_,30,Software Engineer_,500000,alicekim_@gmail.com,01132998439,COMP01
+2018-05-23 12:04:11 DEBUG FileLoaderImpl:114 - line is: PER03,Bob Gilman,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP011
+2018-05-23 12:04:11 DEBUG FileLoaderImpl:114 - line is: PER04,John Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP02
+2018-05-23 12:04:11 DEBUG FileLoaderImpl:114 - line is: PER05,Bob Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP02
+2018-05-23 12:04:11 DEBUG FileLoaderImpl:114 - line is: PER06,John Gilman,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 12:04:11 DEBUG FileLoaderImpl:114 - line is: PER07,Kim Gilmi,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 12:04:11 DEBUG FileLoaderImpl:114 - line is: PER08,Gilman Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 12:04:11 DEBUG FileLoaderImpl:61 - File name....company.txt
+2018-05-23 12:04:11 DEBUG FileLoaderImpl:47 - About to read file:C:/bizleap/ds/data/company.txt
+2018-05-23 12:04:11 DEBUG FileLoaderImpl:114 - line is: COMP01,Apple,California U.S,800-692-7753,apple@gmail.com,Tim Cook
+2018-05-23 12:04:11 DEBUG FileLoaderImpl:114 - line is: COMP02,IBM,New York U.S,800-426-4968,ibm@gmail.com,Ginni Rometty
+2018-05-23 12:04:11 DEBUG FileLoaderImpl:114 - line is: COMP03,Adobe,California U.S,800-585-0774,adobe@gmail.com,Shantanu Narayen
+2018-05-23 12:04:11 DEBUG AssociationMapperImpl:39 - 
+2018-05-23 12:04:11 DEBUG AssociationMapperImpl:41 - >>>>>>>>>>>>>> ERROR: Object Link Error <<<<<<<<<<<<<
+2018-05-23 12:04:11 DEBUG AssociationMapperImpl:43 -    Company in employee cannot be linked!
+2018-05-23 12:04:11 DEBUG AssociationMapperImpl:44 - -----------------------------------------------
+2018-05-23 12:04:11 DEBUG AssociationMapperImpl:19 - 
+2018-05-23 12:04:11 DEBUG AssociationMapperImpl:20 - >>>> Object with the issue is :::: com.bizleap.commons.domain.Company@58a63629[boId=COMP011,name=<null>,email=<null>,phone=<null>,address=<null>,ceo=<null>]
+2018-05-23 12:04:11 DEBUG AssociationMapperImpl:21 - 
+2018-05-23 12:04:11 DEBUG AssociationMapperImpl:15 - >>>> Source object is :::: com.bizleap.commons.domain.Employee@7de843ef[boId=PER03,name=Bob Gilman,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP011]
+2018-05-23 12:04:11 DEBUG AssociationMapperImpl:15 - ----------------------------------
+2018-05-23 12:04:11 ERROR AssociationMapperImpl:97 - 
+java.lang.Exception: Object Linkage Exception
+	at com.bizleap.training.ds.loader.impl.AssociationMapperImpl.handleLinkageError(AssociationMapperImpl.java:97)
+	at com.bizleap.training.ds.loader.impl.AssociationMapperImpl.addCompanyToEmployee(AssociationMapperImpl.java:38)
+	at com.bizleap.training.ds.loader.impl.AssociationMapperImpl.processEmployeeAssociations(AssociationMapperImpl.java:74)
+	at com.bizleap.training.ds.loader.impl.AssociationMapperImpl.buildAssociations(AssociationMapperImpl.java:85)
+	at com.bizleap.training.ds.loader.impl.DataManagerImpl.load(DataManagerImpl.java:35)
+	at com.bizleap.training.ds.loader.impl.test.DataManagerImplTest.testLoad(DataManagerImplTest.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:254)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+2018-05-23 12:04:11 DEBUG CompanySaverImpl:15 - About to save:com.bizleap.commons.domain.Company@474fae39[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook]
+2018-05-23 12:04:12 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 12:04:12 DEBUG CompanySaverImpl:15 - About to save:com.bizleap.commons.domain.Company@213c3543[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty]
+2018-05-23 12:04:12 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 12:04:12 DEBUG CompanySaverImpl:15 - About to save:com.bizleap.commons.domain.Company@186cb891[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]
+2018-05-23 12:04:12 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 12:04:12 INFO  DataManagerImplTest:37 - Employee List:[com.bizleap.commons.domain.Employee@4b7c4456[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@aaee2a2[boId=PER02,name=Alice_ Kim_,email=alicekim_@gmail.com,phone=01132998439,title=Software Engineer_,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@7de843ef[boId=PER03,name=Bob Gilman,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP011], com.bizleap.commons.domain.Employee@41f4fe5[boId=PER04,name=John Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@6f4ade6e[boId=PER05,name=Bob Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@4f453e63[boId=PER06,name=John Gilman,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@49c8f6e8[boId=PER07,name=Kim Gilmi,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@771cbb1a[boId=PER08,name=Gilman Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP03]]
+2018-05-23 12:04:12 INFO  DataManagerImplTest:42 - Company List:[com.bizleap.commons.domain.Company@474fae39[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook], com.bizleap.commons.domain.Company@213c3543[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty], com.bizleap.commons.domain.Company@186cb891[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]]
+2018-05-23 12:04:59 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 12:05:07 INFO  CompanyServiceImplTest:25 - Company List[]
+2018-05-23 17:35:23 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 17:35:33 DEBUG FileLoaderImpl:61 - File name....employee.txt
+2018-05-23 17:35:33 DEBUG FileLoaderImpl:47 - About to read file:C:/bizleap/ds/data/employee.txt
+2018-05-23 17:35:33 DEBUG FileLoaderImpl:114 - line is: PER01,Alice Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 17:35:33 DEBUG FileLoaderImpl:114 - line is: PER02,Alice_ Kim_,30,Software Engineer_,500000,alicekim_@gmail.com,01132998439,COMP01
+2018-05-23 17:35:33 DEBUG FileLoaderImpl:114 - line is: PER03,Bob Gilman,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP011
+2018-05-23 17:35:33 DEBUG FileLoaderImpl:114 - line is: PER04,John Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP02
+2018-05-23 17:35:33 DEBUG FileLoaderImpl:114 - line is: PER05,Bob Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP02
+2018-05-23 17:35:33 DEBUG FileLoaderImpl:114 - line is: PER06,John Gilman,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 17:35:33 DEBUG FileLoaderImpl:114 - line is: PER07,Kim Gilmi,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 17:35:33 DEBUG FileLoaderImpl:114 - line is: PER08,Gilman Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 17:35:33 DEBUG FileLoaderImpl:61 - File name....company.txt
+2018-05-23 17:35:33 DEBUG FileLoaderImpl:47 - About to read file:C:/bizleap/ds/data/company.txt
+2018-05-23 17:35:33 DEBUG FileLoaderImpl:114 - line is: COMP01,Apple,California U.S,800-692-7753,apple@gmail.com,Tim Cook
+2018-05-23 17:35:33 DEBUG FileLoaderImpl:114 - line is: COMP02,IBM,New York U.S,800-426-4968,ibm@gmail.com,Ginni Rometty
+2018-05-23 17:35:33 DEBUG FileLoaderImpl:114 - line is: COMP03,Adobe,California U.S,800-585-0774,adobe@gmail.com,Shantanu Narayen
+2018-05-23 17:35:33 DEBUG AssociationMapperImpl:39 - 
+2018-05-23 17:35:33 DEBUG AssociationMapperImpl:41 - >>>>>>>>>>>>>> ERROR: Object Link Error <<<<<<<<<<<<<
+2018-05-23 17:35:33 DEBUG AssociationMapperImpl:43 -    Company in employee cannot be linked!
+2018-05-23 17:35:33 DEBUG AssociationMapperImpl:44 - -----------------------------------------------
+2018-05-23 17:35:33 DEBUG AssociationMapperImpl:19 - 
+2018-05-23 17:35:33 DEBUG AssociationMapperImpl:20 - >>>> Object with the issue is :::: com.bizleap.commons.domain.Company@2e1af49b[boId=COMP011,name=<null>,email=<null>,phone=<null>,address=<null>,ceo=<null>]
+2018-05-23 17:35:33 DEBUG AssociationMapperImpl:21 - 
+2018-05-23 17:35:33 DEBUG AssociationMapperImpl:15 - >>>> Source object is :::: com.bizleap.commons.domain.Employee@3fd2322d[boId=PER03,name=Bob Gilman,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP011]
+2018-05-23 17:35:33 DEBUG AssociationMapperImpl:15 - ----------------------------------
+2018-05-23 17:35:33 ERROR AssociationMapperImpl:101 - 
+java.lang.Exception: Object Linkage Exception
+	at com.bizleap.training.ds.loader.impl.AssociationMapperImpl.handleLinkageError(AssociationMapperImpl.java:101)
+	at com.bizleap.training.ds.loader.impl.AssociationMapperImpl.addCompanyToEmployee(AssociationMapperImpl.java:38)
+	at com.bizleap.training.ds.loader.impl.AssociationMapperImpl.processEmployeeAssociations(AssociationMapperImpl.java:78)
+	at com.bizleap.training.ds.loader.impl.AssociationMapperImpl.buildAssociations(AssociationMapperImpl.java:89)
+	at com.bizleap.training.ds.loader.impl.DataManagerImpl.load(DataManagerImpl.java:35)
+	at com.bizleap.training.ds.loader.impl.test.DataManagerImplTest.testLoad(DataManagerImplTest.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:254)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+2018-05-23 17:35:33 DEBUG CompanySaverImpl:15 - About to save:com.bizleap.commons.domain.Company@13f9ad9[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook]
+2018-05-23 17:35:33 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 17:35:33 DEBUG CompanySaverImpl:15 - About to save:com.bizleap.commons.domain.Company@670ce331[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty]
+2018-05-23 17:35:34 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 17:35:34 DEBUG CompanySaverImpl:15 - About to save:com.bizleap.commons.domain.Company@440eaa07[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]
+2018-05-23 17:35:34 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 17:35:34 INFO  DataManagerImplTest:36 - Employee List:[com.bizleap.commons.domain.Employee@c1fca2a[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@4aaae508[boId=PER02,name=Alice_ Kim_,email=alicekim_@gmail.com,phone=01132998439,title=Software Engineer_,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@3fd2322d[boId=PER03,name=Bob Gilman,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP011], com.bizleap.commons.domain.Employee@514cd540[boId=PER04,name=John Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@eb507b9[boId=PER05,name=Bob Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@7afbf561[boId=PER06,name=John Gilman,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@4e73b552[boId=PER07,name=Kim Gilmi,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@6b2e0f78[boId=PER08,name=Gilman Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP03]]
+2018-05-23 17:35:34 INFO  DataManagerImplTest:41 - Company List:[com.bizleap.commons.domain.Company@13f9ad9[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook], com.bizleap.commons.domain.Company@670ce331[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty], com.bizleap.commons.domain.Company@440eaa07[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]]
+2018-05-23 17:45:10 DEBUG logging:192 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-05-23 17:45:17 DEBUG FileLoaderImpl:61 - File name....employee.txt
+2018-05-23 17:45:17 DEBUG FileLoaderImpl:47 - About to read file:C:/bizleap/ds/data/employee.txt
+2018-05-23 17:45:17 DEBUG FileLoaderImpl:114 - line is: PER01,Alice Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP01
+2018-05-23 17:45:17 DEBUG FileLoaderImpl:114 - line is: PER02,Alice_ Kim_,30,Software Engineer_,500000,alicekim_@gmail.com,01132998439,COMP01
+2018-05-23 17:45:17 DEBUG FileLoaderImpl:114 - line is: PER03,Bob Gilman,29,Project Manager,400000,bobgilman@gmail.com,01124989988,COMP01
+2018-05-23 17:45:17 DEBUG FileLoaderImpl:114 - line is: PER04,John Mark,27,Web Developer,300000,johnmark@gmail.com,01135654761,COMP02
+2018-05-23 17:45:17 DEBUG FileLoaderImpl:114 - line is: PER05,Bob Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP02
+2018-05-23 17:45:17 DEBUG FileLoaderImpl:114 - line is: PER06,John Gilman,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 17:45:17 DEBUG FileLoaderImpl:114 - line is: PER07,Kim Gilmi,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 17:45:17 DEBUG FileLoaderImpl:114 - line is: PER08,Gilman Kim,30,Software Engineer,500000,alicekim@gmail.com,01132998439,COMP03
+2018-05-23 17:45:17 DEBUG FileLoaderImpl:61 - File name....company.txt
+2018-05-23 17:45:17 DEBUG FileLoaderImpl:47 - About to read file:C:/bizleap/ds/data/company.txt
+2018-05-23 17:45:17 DEBUG FileLoaderImpl:114 - line is: COMP01,Apple,California U.S,800-692-7753,apple@gmail.com,Tim Cook
+2018-05-23 17:45:17 DEBUG FileLoaderImpl:114 - line is: COMP02,IBM,New York U.S,800-426-4968,ibm@gmail.com,Ginni Rometty
+2018-05-23 17:45:17 DEBUG FileLoaderImpl:114 - line is: COMP03,Adobe,California U.S,800-585-0774,adobe@gmail.com,Shantanu Narayen
+2018-05-23 17:45:17 DEBUG CompanySaverImpl:15 - About to save:com.bizleap.commons.domain.Company@2e1af49b[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook]
+2018-05-23 17:45:18 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 17:45:18 DEBUG CompanySaverImpl:15 - About to save:com.bizleap.commons.domain.Company@38320e34[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty]
+2018-05-23 17:45:18 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 17:45:18 DEBUG CompanySaverImpl:15 - About to save:com.bizleap.commons.domain.Company@eb507b9[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]
+2018-05-23 17:45:18 DEBUG CompanySaverImpl:15 - Company successfully saved.
+2018-05-23 17:45:18 INFO  DataManagerImplTest:36 - Employee List:[com.bizleap.commons.domain.Employee@5176d279[boId=PER01,name=Alice Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@64fc097e[boId=PER02,name=Alice_ Kim_,email=alicekim_@gmail.com,phone=01132998439,title=Software Engineer_,age=30,salary=500000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@6107165[boId=PER03,name=Bob Gilman,email=bobgilman@gmail.com,phone=01124989988,title=Project Manager,age=29,salary=400000,workForCompany=COMP01], com.bizleap.commons.domain.Employee@4bbb49b0[boId=PER04,name=John Mark,email=johnmark@gmail.com,phone=01135654761,title=Web Developer,age=27,salary=300000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@15f8701f[boId=PER05,name=Bob Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP02], com.bizleap.commons.domain.Employee@624a24f6[boId=PER06,name=John Gilman,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@7afbf561[boId=PER07,name=Kim Gilmi,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP03], com.bizleap.commons.domain.Employee@4e73b552[boId=PER08,name=Gilman Kim,email=alicekim@gmail.com,phone=01132998439,title=Software Engineer,age=30,salary=500000,workForCompany=COMP03]]
+2018-05-23 17:45:18 INFO  DataManagerImplTest:41 - Company List:[com.bizleap.commons.domain.Company@2e1af49b[boId=COMP01,name=Apple,email=apple@gmail.com,phone=800-692-7753,address=California U.S,ceo=Tim Cook], com.bizleap.commons.domain.Company@38320e34[boId=COMP02,name=IBM,email=ibm@gmail.com,phone=800-426-4968,address=New York U.S,ceo=Ginni Rometty], com.bizleap.commons.domain.Company@eb507b9[boId=COMP03,name=Adobe,email=adobe@gmail.com,phone=800-585-0774,address=California U.S,ceo=Shantanu Narayen]]
